@@ -6,6 +6,7 @@
   --background-color: #f5f7fa;
   --card-background: #ffffff;
   --card-background-rgb: 255, 255, 255;
+  --card-bg-color: rgba(255, 255, 255, 0.80);
   --text-color: #333333;
   --text-color-rgb: 51, 51, 51;
   --secondary-text-color: #666666;
@@ -33,6 +34,7 @@ body.dark-theme[data-v-36dc08c7] {
   --secondary-text-color: rgba(255, 255, 255, 0.6);
   --border-color: rgba(255, 255, 255, 0.1);
   --shadow-color: rgba(0, 0, 0, 0.3);
+  --card-bg-color: rgba(0,0,0,0.80);
 }
 .dialog-overlay[data-v-36dc08c7] {
   position: fixed;
@@ -210,6 +212,7 @@ to {
   --background-color: #f5f7fa;
   --card-background: #ffffff;
   --card-background-rgb: 255, 255, 255;
+  --card-bg-color: rgba(255, 255, 255, 0.80);
   --text-color: #333333;
   --text-color-rgb: 51, 51, 51;
   --secondary-text-color: #666666;
@@ -237,6 +240,7 @@ body.dark-theme[data-v-b1e5f03e] {
   --secondary-text-color: rgba(255, 255, 255, 0.6);
   --border-color: rgba(255, 255, 255, 0.1);
   --shadow-color: rgba(0, 0, 0, 0.3);
+  --card-bg-color: rgba(0,0,0,0.80);
 }
 .dashboard-container[data-v-b1e5f03e] {
   padding: 20px;
@@ -2095,6 +2099,7 @@ to {
   --background-color: #f5f7fa;
   --card-background: #ffffff;
   --card-background-rgb: 255, 255, 255;
+  --card-bg-color: rgba(255, 255, 255, 0.80);
   --text-color: #333333;
   --text-color-rgb: 51, 51, 51;
   --secondary-text-color: #666666;
@@ -2122,6 +2127,7 @@ body.dark-theme {
   --secondary-text-color: rgba(255, 255, 255, 0.6);
   --border-color: rgba(255, 255, 255, 0.1);
   --shadow-color: rgba(0, 0, 0, 0.3);
+  --card-bg-color: rgba(0,0,0,0.80);
 }
 .stats-card.warning-card {
   border-color: #ff9800 !important;

@@ -6,6 +6,7 @@
   --background-color: #f5f7fa;
   --card-background: #ffffff;
   --card-background-rgb: 255, 255, 255;
+  --card-bg-color: rgba(255, 255, 255, 0.80);
   --text-color: #333333;
   --text-color-rgb: 51, 51, 51;
   --secondary-text-color: #666666;
@@ -34,6 +35,7 @@ body.dark-theme {
   --secondary-text-color: rgba(255, 255, 255, 0.6);
   --border-color: rgba(255, 255, 255, 0.1);
   --shadow-color: rgba(0, 0, 0, 0.3);
+  --card-bg-color: rgba(0,0,0,0.80);
 }
 
 /**
@@ -69,6 +71,12 @@ body {
   background-color: var(--background-color);
   overflow-x: hidden;
   transition: color 0.3s ease, background-color 0.3s ease;
+  background-image: url("https://www.loliapi.com/acg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(5px);
+  background-attachment: fixed;
 }
 
 a {
@@ -109,6 +117,8 @@ input, button, textarea, select {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+  backdrop-filter: blur(10px); /* 模糊背景 */
+  -webkit-backdrop-filter: blur(10px); /* Safari 需要加前綴 */
 }
 
 @media (max-width: 768px) {
@@ -196,7 +206,7 @@ input, button, textarea, select {
 /* 全局过渡动画 */
 .slide-fade-enter-active,
 .slide-fade-leave-active {
-  transition: opacity 0.4s ease;
+  transition: opacity 0.3s ease;
 }
 
 .slide-fade-enter-from,
